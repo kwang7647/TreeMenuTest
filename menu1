@@ -1,0 +1,42 @@
+<treeMenu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://portal.uci.edu/ /WEB-INF/schema/treeMenu.xsd">
+	<title>Tree Menu Test Title</title>
+	<description>This is the metadata page description.</description>
+	<nodeList>
+		<node>
+			<text>This portlet is not setup correctly</text>
+		</node>
+		<node>
+			<text>Last Node</text>
+			<nodeList>
+				<node>
+					<text>One Kid</text>
+				</node>
+			</nodeList>
+		</node>
+		<node>
+			<text>First Node</text>
+			<nodeList>
+				<node>
+					<text>AA Node</text>
+					<nodeList>
+						<node>
+							<text>Grandchild Node Title</text>
+						</node>
+						<node>
+							<text>2nd Grandchild Node Title (google link)</text>
+							<link>http://www.google.com</link>
+						</node>
+					</nodeList>
+				</node>
+				<node>
+					<text>AB Node</text>
+				</node>
+				<node>
+					<text>UCI Homepage</text>
+					<link>http://www.uci.edu</link>
+				</node>
+			</nodeList>
+		</node>
+	</nodeList>
+</treeMenu>
